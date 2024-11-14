@@ -1,0 +1,115 @@
+
+
+                        SEM - I
+
+courses.push_back(Course("18CS101","ENGINEERING MATHEMATICS I",4));
+courses.push_back(Course("18CS102","ENGINEERING PHYSICS I",3));
+courses.push_back(Course("18CS103","ENGINEERING CHEMISTRY I",3));
+courses.push_back(Course("18CS104","COMPUTER PROGRAMMING I",3));
+courses.push_back(Course("18GE101","COMMUNICATIVE ENGLISH I",2));
+courses.push_back(Course("18CS106","HARDWARE AND SOFTWARE",2));
+
+                        SEM - II
+
+courses.push_back("18CS201","ENGINEERING MATHEMATICS II",4);
+courses.push_back("18CS201","ENGINEERING PHYSICS II",3);
+courses.push_back("18CS201","ENGINEERING CHEMISTRY II",3);
+courses.push_back("18CS201","COMPUTER PROGRAMMING II",3);
+courses.push_back("18CS201","BASICS OF EEE",3);
+courses.push_back("18CS201","COMMUNICATIVE ENGLISH II",2);
+courses.push_back("18CS201","ENGINEERING GRAPHICS",3);
+
+                        SEM - III
+
+courses.push_back("18CS301","ENGINEERING MATHEMATICS III",4);
+courses.push_back("18CS302","DATA STRUCTURES",3);
+courses.push_back("18CS303","DIGITAL SYSTEM DESIGN",4);
+courses.push_back("18CS304","SOFTWARE ENGINEERING",3);
+courses.push_back("18CS305","DATABASE MANAGEMENT SYSTEMS",3);
+courses.push_back("18CS306","PROGRAMMING USING CPP",3);
+courses.push_back("18CS307","DATA STRUCTURES LABORATORY",2);
+courses.push_back("18CS308","DATABASE MANAGEMENT SYSTEMS LABORATORY",2);
+
+                        SEM - IV
+
+courses.push_back("18CS401","ENGINEERING MATHEMATICS IV",4);
+courses.push_back("18CS402","DESIGN AND ANALYSIS OF ALGORITHMS",4);
+courses.push_back("18CS403","MICTROPROCESSORS AND MICROCONTROLLER",3);
+courses.push_back("18CS404","OPERATING SYSTEM",3);
+courses.push_back("18CS405","DATA MINNG AND DATA WAREHOUSING",3);
+courses.push_back("18CS406","JAVA PROGRAMMING",3);
+courses.push_back("18CS407","MICTROPROCESSORS AND MICROCONTROLLER LABORATORY",2);
+courses.push_back("18CS408","DATA MINNG AND DATA WAREHOUSING LABORATORY",2);
+
+                        SEM - V
+
+courses.push_back("21CS501","THEORY OF COMPUTATION",4);
+courses.push_back("21CS502","COMPUTER ARCHITECTURE",3);
+courses.push_back("21CS503","COMPUTER NETWORKS",3);
+courses.push_back("21CS504","MACHINE LEARNING",3);
+courses.push_back("21CS030","KNOWLEDGE ENGINEERING",3);
+courses.push_back("21CS039","INTERNET OF THINGS",3);
+courses.push_back("21CS507","COMPUTER NETWORKS LABORATORY",2);
+courses.push_back("21CS508","MACHINE LEARNING LABORATORY",2);
+
+                        SEM - VI
+
+courses.push_back("21CS601","COMPILER DESIGN",4);
+courses.push_back("21CS602","CLOUD COMPUTING",3);
+courses.push_back("21CS603","WEB TECHNOLOGY",3);
+courses.push_back("21CS026","AUGUMENTED REALITY / VIRSUAL REALITY",3);
+courses.push_back("21CS031","SOFT COMPUTERING",3);
+courses.push_back("21CS607","CLOUD COMPUTING LABORATORY",2);
+courses.push_back("21CS608","WEB TECHNOLOGY LABORATORY",2);
+
+                        SEM - VII
+
+courses.push_back("21HS002","HUMAN VALUES AND ETHICS ",2);
+courses.push_back("21CS702","SOFTWARE TESTING",3);
+courses.push_back("21CS012","DEVOPS",3);
+courses.push_back("21CS032","TEXT AND SPEECH ANALYSIS",3);
+courses.push_back("21CS040","BUSINESS ANALYTICS",3);
+courses.push_back("21CS018","SECURITY AND PRIVACY IN CLOUD",3);
+courses.push_back("21CS707","SOFTWARE TESTING LABORATORY",2);
+courses.push_back("21CS708","PROJECT WORK I",3);
+
+                        SEM - VIII
+
+courses.push_back("21CS801","PROJECT WORK II",9);
+
+
+
+
+
+vector<vector<string>> res =
+{
+
+    {
+        {"18CS101","ENGINEERING MATHEMATICS I","4"},
+        {"18CS102","ENGINEERING PHYSICS I","3"},
+        {"18CS103","ENGINEERING CHEMISTRY I","3"},
+        {"18CS104","COMPUTER PROGRAMMING I","3"},
+        {"18GE101","COMMUNICATIVE ENGLISH I","2"},
+        {"18CS106","HARDWARE AND SOFTWARE","2}
+    },
+    {
+        {"18CS201","ENGINEERING MATHEMATICS II","4},
+        {"18CS201","ENGINEERING PHYSICS II","3"},
+        {"18CS201","ENGINEERING CHEMISTRY II","3"},
+        {"18CS201","COMPUTER PROGRAMMING II","3"},
+        {"18CS201","BASICS OF EEE","3"},
+        {"18CS201","COMMUNICATIVE ENGLISH II","2"},
+        {"18CS201","ENGINEERING GRAPHICS","3"}
+    },
+    {
+        {"18CS301","ENGINEERING MATHEMATICS III",4},
+        {"18CS302","DATA STRUCTURES",3},
+        {"18CS303","DIGITAL SYSTEM DESIGN",4},
+        {"18CS304","SOFTWARE ENGINEERING",3},
+        {"18CS305","DATABASE MANAGEMENT SYSTEMS",3},
+        {"18CS306","PROGRAMMING USING CPP",3},
+        {"18CS307","DATA STRUCTURES LABORATORY",2},
+        {"18CS308","DATABASE MANAGEMENT SYSTEMS LABORATORY",2}
+    }
+
+}
