@@ -35,21 +35,18 @@ Represents a semester containing multiple Course objects. This class:
 - Stores a list of courses in the semester.
 - Provides a method to display all courses and credits for the semester.
 
+
 ### 3. Departments
 
 Represents a department containing multiple Semester objects. This class:
 - Stores all semesters in a department.
 - Displays all courses and credits across semesters.
 
-### 4. Sgpa
 
-Calculates the SGPA for a single semester. This class:
-- Uses a static unordered_map to store grade values.
-- Computes weighted grade points for each course based on user input.
-
-### 5. Cgpa
+### 4. Cgpa
 
 Calculates the cumulative GPA by combining SGPAs across multiple semesters. This class:
+- Calculates the Semester GPA based on grades entered for each course.
 - Prompts the user to continue calculating for subsequent semesters.
 - Computes the final CGPA based on the total credits and weighted grade points.
 
